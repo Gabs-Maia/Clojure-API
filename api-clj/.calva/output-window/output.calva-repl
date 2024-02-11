@@ -1,0 +1,625 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:53449 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+2
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:1:8144).
+; Unable to resolve symbol: again in this context
+clj꞉api-clj.core꞉> 
+#function[clojure.core/name]
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:11:1).
+; Unable to resolve symbol: say-hi in this context
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:12:1).
+; Unable to resolve symbol: say-hi in this context
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:12:1).
+; Unable to resolve symbol: say-hi in this context
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:12:1).
+; Unable to resolve symbol: say-hi in this context
+clj꞉api-clj.core꞉> 
+#'api-clj.core/say-hi
+clj꞉api-clj.core꞉> 
+"Hi, aksjakaj"
+clj꞉api-clj.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Interrupting Jack-in process.
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:54225 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\api-clj\src\api_clj\core.clj:16:3).
+; Unable to resolve symbol: start in this context
+clj꞉api-clj.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed.; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:54612 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> #'api-clj.core/-main
+clj꞉api-clj.core꞉> 
+#'api-clj.core/start
+clj꞉api-clj.core꞉> 
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__736$fn__737.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__736.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__690.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; ERROR:
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__736$fn__737.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__736.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__690.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1623)
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__736$fn__737.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__736.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__690.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread.java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__736$fn__737.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__736.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__690.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__736$fn__737.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__736.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__690.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+#'api-clj.core/-main
+clj꞉api-clj.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:57448 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+nil
+clj꞉api-clj.core꞉> 
+:port 3001
+3001
+clj꞉api-clj.core꞉> 
+3000
+clj꞉api-clj.core꞉> 
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:59720 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:59998 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Aborting jack-in. No project type selected.
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:60717 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; .java:1623)
+; ERROR:
+; java.lang.ArithmeticException: long overflow
+; 	at java.base/java.lang.Math.multiplyExact(Math.java:1032)
+; 	at clojure.lang.Numbers.multiply(Numbers.java:1971)
+; 	at nrepl.bencode$read_long.invokeStatic(bencode.clj:128)
+; 	at nrepl.bencode$read_netstring_STAR_.invokeStatic(bencode.clj:153)
+; 	at nrepl.bencode$read_token.invokeStatic(bencode.clj:245)
+; 	at nrepl.bencode$read_bencode.invokeStatic(bencode.clj:253)
+; 	at nrepl.transport$bencode$fn__746$fn__747.invoke(transport.clj:122)
+; 	at nrepl.transport$bencode$fn__746.invoke(transport.clj:122)
+; 	at nrepl.transport$fn_transport$fn__700.invoke(transport.clj:50)
+; 	at clojure.core$binding_conveyor_fn$fn__5823.invoke(core.clj:2047)
+; 	at clojure.lang.AFn.call(AFn.java:18)
+; 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+; 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+; 	at java.base/java.lang.Thread.run(Thread
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:61201 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉api-clj.core꞉> 
+clj꞉api-clj.core꞉> 
+; Jack-in done.
+clj꞉api-clj.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\api-clj & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd

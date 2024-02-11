@@ -1,0 +1,35 @@
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\gabri\bin\Clojure_code\clojure-sandbox & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless & popd
+; Using host:port 127.0.0.1:52416 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉clojure-sandbox.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉clojure-sandbox.core꞉> 
+; Jack-in done.
+clj꞉clojure-sandbox.core꞉> 
+#function[clojure-sandbox.core/foo]
+clj꞉clojure-sandbox.core꞉> 
+#function[clojure-sandbox.core/foo]
+clj꞉clojure-sandbox.core꞉> 
+#function[clojure-sandbox.core/foo]
+clj꞉clojure-sandbox.core꞉> 
+#'clojure-sandbox.core/foo
+clj꞉clojure-sandbox.core꞉> 
+#'clojure-sandbox.core/foo
+clj꞉clojure-sandbox.core꞉> 
+; Syntax error compiling at (c:\Users\gabri\bin\Clojure_code\clojure-sandbox\src\clojure_sandbox\core.clj:1:7985).
+; Unable to resolve symbol: bar in this context
+clj꞉clojure-sandbox.core꞉> 
